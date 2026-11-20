@@ -300,7 +300,7 @@ class MainActivity : Activity() {
         base.addView(navScroll)
 
         val scroll = ScrollView(this).apply {
-            fillViewport = true
+            isFillViewport = true
         }
 
         content = LinearLayout(this).apply {
